@@ -1,38 +1,11 @@
 <script>
     import coffee from "../routes/public/inventory/coffee.jpg"
     import landingJpg from "../routes/public/landing.jpg"
+    import '../app.css'
 </script>
-<style>
-
-    .first-section {
-        position: relative; 
-        background-image: url('./public/bg.png');
-        background-size: cover; 
-        background-repeat: no-repeat;
-    }
-
-    .first-section::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        /* background-color: rgba(0, 0, 0, 0.3); */
-    }
-    .line-text {
-        -webkit-text-stroke: 3px white;
-        color:rgba(255, 255, 255, 0.1);
-    }
-
-    .title{
-        font-size: 36px;
-        font-weight: bold;
-        color: rgb(202, 202, 202);
-    }
-</style>
-
-<div class="flex flex-col gap-8">
+<style></style>
+    
+<div class="flex flex-col gap-8 font-poppins">
 
     <nav class="bg-white fixed z-20 bottom-12 left-0 right-0 shadow-md mx-24 rounded-xl border-[1px] border-gray-300">
         <div class=" flex flex-wrap items-center justify-between w-full mx-auto py-2 px-12">
@@ -50,13 +23,15 @@
         </div>
     </nav>
   
-    <div class="first-section flex flex-col justify-center align-center items-end bg-green-800 px-24 py-36 justify-between">
-        <div class="absolute left-24 top-36 text-[200px] font-black text-start text-white" style="line-height: 1;">
-            <h1 class="max-w-700"><span class="line-text">GREEN BY</span> DESIGN</h1>
-        </div>
-    
-        <div class="w-96 h-96 rounded-xl" style="overflow: hidden;">
-            <img src="{landingJpg}" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+    <div class="background-image first-section flex flex-col justify-center align-center items-end bg-green-800 px-24 py-36 justify-between">
+        <div class="image-content ">
+            <div class=" absolute left-24 top-36 text-[200px] font-black text-start text-white" style="line-height: 1;">
+                <h1 class="max-w-700"><span class="line-text">GREEN BY</span> DESIGN</h1>
+            </div>
+        
+            <div class="w-96 h-96 rounded-xl image-content" style="overflow: hidden;">
+                <img src="{landingJpg}" alt="..." style="object-fit: cover; width: 100%; height: 100%;">
+            </div>
         </div>
     </div>
 
