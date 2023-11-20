@@ -6,11 +6,11 @@
 .background-image {
     position: relative;
     display: flex;
-    justify-content: end;
-    align-items: end;
-    background-image: url('/bg.png');
+    /* justify-content: center;
+    align-items: center; */
 }
 .background-image::before {
+    background-image: url('./routes/public/bg.png');
     content: "";
     background-size: cover;
     position: absolute;
@@ -24,14 +24,43 @@
 .line-text {
     z-index: 1;
     -webkit-text-stroke: 3px white;
-    color:rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.221);
+}
+
+@media (max-width: 767px) {
+    .line-text {
+        -webkit-text-stroke: 1px white;
+    }
 }
 .image-content{
     z-index: 1;
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: end;
 }
 .title{
     font-size: 36px;
     font-weight: bold;
-    color: rgb(202, 202, 202);
+    color: rgb(115, 115, 115);
+}
+.text-image-clip {
+    background-image: url('./routes/public/textOverlay.png');
+    background-size: cover;
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-image-orange-vector {
+    position: relative;
+    display: flex;
+}
+.bg-image-orange-vector {
+    background-image: url('./routes/public/swirl.png');
+    content: "";
+    background-size: fill;
+    background-repeat: no-repeat;
+    padding-top: 24;
+    width: 100%;
+    background-color: white;
+    background-position: center center; /* Adjust the position as needed */
 }
