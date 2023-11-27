@@ -8,6 +8,8 @@
     import cornerTopRight from "../routes/public/corner-top-right.svg"
     import wave from "../routes/public/wave.png"
     import '../app.css'
+    import Navbar from './components/navbar.svelte'; // Adjust the path based on your project structure
+
 </script>
 <style>
 </style>
@@ -19,7 +21,7 @@
     
 <div class="flex flex-col font-poppins">
 
-    <nav class="bg-white fixed z-20 bottom-12 left-0 right-0 shadow-md md:mx-24 mx-8 rounded-xl md:text-lg text-sm border-green-800 border-[3px]">
+    <!-- <nav class="bg-white fixed z-20 bottom-12 left-0 right-0 shadow-md md:mx-24 mx-8 rounded-xl md:text-lg text-sm border-green-800 border-2">
         <div class=" flex items-center justify-between w-full mx-auto py-1 md:px-12 px-4">
             <a href="/" class="flex items-center">
                 <span class="self-center font-semibold">ABOUT</span>
@@ -33,7 +35,11 @@
                 </svg>
             </a>
         </div>
-    </nav>
+    </nav> -->
+
+    <div class="flex justify-center items-center align-center">
+        <Navbar></Navbar>
+    </div>
   
     <div class="background-image flex flex-col bg-black pt-36 pb-24 md:pb-36">
         <div class="flex md:left-8 left-1 md:top-8 top-1 absolute">
@@ -79,7 +85,7 @@
     </div>
 
     <div class="md:mt-16 mt-12  md:px-24 px-8">
-        <div class="flex text-gray-400 text-xs justify-between border-gray border-2 md:border-[3px] rounded-full px-8 py-4">
+        <div class="flex text-gray-400 text-xs justify-between border-gray border-2 md:border-[2px] rounded-full px-8 py-4">
             <div class="">
                 HELLO
             </div>

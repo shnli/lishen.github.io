@@ -5,8 +5,8 @@
     export let price;
   </script>
   
-  <div class="flex flex-col gap-4 border-2 shadow-md w-1/5 p-4 rounded-xl">
-    <img src={imageSrc} alt="Coffee" class="rounded-xl h-[300px] mx-auto">
+  <div class="flex flex-col gap-4 border-[2px] bg-white border-green-800 shadow-md  p-8 rounded-xl">
+    <img src={imageSrc} alt="Coffee" class="rounded-xl h-[300px] object-cover">
     <div>
       <div>{title}</div>
       <div>{price}</div>
