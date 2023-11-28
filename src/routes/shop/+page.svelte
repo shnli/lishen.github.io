@@ -13,7 +13,7 @@
 </head>
     
 <div class="bg-image-orange-vectorflex flex-col font-poppins md:p-8 p-4">
-    <!-- <nav class="bg-white fixed z-20 bottom-12 left-0 right-0 shadow-md md:mx-24 mx-8 rounded-xl md:text-lg text-sm border-green-800 border-[3px]">
+    <nav class="bg-white fixed z-20 bottom-12 left-0 right-0 shadow-md md:mx-24 mx-8 rounded-xl md:text-lg text-sm border-green-800 border-[3px]">
         <div class=" flex items-center justify-between w-full mx-auto py-1 md:px-12 px-4">
             <a href="/" class="flex items-center">
                 <span class="self-center font-semibold">ABOUT</span>
@@ -27,11 +27,11 @@
                 </svg>
             </a>
         </div>
-    </nav> -->
+    </nav>
 
-    <div>
+    <!-- <div>
         <Navbar></Navbar>
-    </div>
+    </div> -->
 
     <div>
         <img src={swirl} class="absolute top-12 left-0 w-screen object-cover opacity-30">

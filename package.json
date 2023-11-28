@@ -18,6 +18,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"react-wavify": "^1.9.0"
+		"react-wavify": "^1.9.0",
+		"svelte-routing": "^2.9.0"
 	}
 }
