@@ -72,10 +72,10 @@
 }
 @keyframes rotateAnimation {
     from {
-        transform: rotate(0deg);
+        transform: rotate(360deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 .shop-bg {
@@ -84,15 +84,11 @@
     overflow: hidden;
 }
 
-.shop-bg::before {
+.shop-bg .circle {
     z-index: -1;
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('./routes/public/circle.png');
-    background-repeat: no-repeat;
-    background-position: center 172px;
-    animation: rotateAnimation 20s linear infinite; /* Adjust the duration as needed */
-    
+    top: 180px;
+    opacity: 0.5;
+    animation: rotateAnimation 20s linear infinite;
 }
