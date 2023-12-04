@@ -5,10 +5,10 @@
     import swirl from "../../routes/public/swirl.png";
 </script>
 <div class="flex flex-col justify-center items-center font-poppins p-24 h-screen">
-    <div class="text-[100px] font-bold opacity-20 text-center"> 
+    <div class="md:text-[100px] text-[30px] font-bold opacity-20 text-center"> 
         UNDER CONSTRUCTION
     </div>
-    <div class="text-[20px] font-semibold opacity-20 text-center pb-8">
+    <div class="md:text-[20px] text-[10px] font-semibold opacity-20 text-center pb-8">
         COME BACK LATER!
     </div>
     <a href="/" class="flex gap-2 py-2 px-4 border-2 rounded-full bg-black border-black text-white hover:bg-white hover:text-black">
