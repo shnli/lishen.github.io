@@ -68,7 +68,7 @@
     padding-top: 24;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    background-position: center center; /* Adjust the position as needed */
+    background-position: center center;
 }
 @keyframes rotateAnimation {
     from {
