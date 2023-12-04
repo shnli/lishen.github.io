@@ -12,7 +12,6 @@
     import shop from "../routes/public/shop.svg"
     import Marque from './components/marque.svelte';
     import darklogo from "../routes/public/darklogo.png"
-
     import coffee from "../routes/public/inventory/coffee.jpg"
     import dino from "../routes/public/inventory/dino.jpg"
     import rev from "../routes/public/inventory/rev.jpg"
@@ -65,33 +64,33 @@
 
 
     <div class="bg-white fixed z-20 md:bottom-12 bottom-4 shadow-md md:w-1/3 w-5/6 left-0 right-0 mx-auto rounded-full md:text-lg text-sm border-green-800 border-2 bg-opacity-90 m-4">     
-             <div class="flex items-center justify-between py-2 md:px-8 px-6 md:gap-4 gap-2">
-                <a href="/" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 bg-gradient-to-r from-teal-700 to-green-700 opacity-90 text-white border-green-800 hover:opacity-100">
-                    <img src={whiteheart} alt="SHOP" class="w-6 h-6">
-                    <span class="self-center font-semibold md:px-6 px-4 ">HOME</span>
-                </a>
-                <a href="/shop" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl border-2 pt-2 border-white hover:border-green-800">
-                    <img src={shop} alt="shop" class="w-6 h-6 ">
-                    <span class=" md:px-8 px-4">SHOP</span>
-                </a>
-                <a href="/" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 border-white hover:border-green-800">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                    </svg>
-                    <span class="hover:text-black font-semibold  md:px-8 px-4">BAG</span>
-                </a>
-            </div>
+            <div class="flex items-center justify-between py-2 md:px-8 px-6 md:gap-4 gap-2">
+            <a href="/" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 bg-gradient-to-r from-teal-700 to-green-700 opacity-90 text-white border-green-800 hover:opacity-100">
+                <img src={whiteheart} alt="SHOP" class="w-6 h-6">
+                <span class="self-center font-semibold md:px-6 px-4 ">HOME</span>
+            </a>
+            <a href="/shop" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl border-2 pt-2 border-gray-100 hover:border-opacity-100 hover:border-green-800">
+                <img src={shop} alt="shop" class="w-6 h-6 ">
+                <span class=" md:px-8 px-4">SHOP</span>
+            </a>
+            <a href="/bag" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 border-gray-100 hover:border-opacity-100 hover:border-green-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>
+                <span class="hover:text-black font-semibold md:px-8 px-4">BAG</span>
+            </a>
         </div>
+    </div>
 
       
-        <div class="flex bg-white z-10 md:mt-8 mt-6 py-1 px-8 font-semibold hover:underline hover:cursor-pointer justify-between w-full md:text-md text-sm">
-            <div class="border-2 border-black md:px-4 px-2">
-                <a href="/shop">
+        <div class="flex bg-white z-10 md:mt-6 mt-4 py-2 px-8 font-semibold hover:cursor-pointer justify-between w-full md:text-md text-sm">
+            <div class="border-2 border-black md:px-4 px-2  hover:bg-black hover:text-white">
+                <a href="/about">
                     ABOUT US
                 </a>
             </div>
             <div class="flex gap-4 items-center">
-                <a href="/shop" class="border-2 border-black md:px-4 px-2">
+                <a href="/shop" class="border-2 border-black md:px-4 px-2  hover:bg-black hover:text-white">
                     SHOP
                 </a>
                 <a href="/shop">
@@ -144,8 +143,8 @@
         </div>
     </div>
     
-    <div class="md:mt-16 mt-8 md:px-24 px-8">
-        <div class="flex  text-gray-800 text-xs justify-between border-gray border-2 md:border-[2px] border-green-800 opacity-50 rounded-lg md:px-12 px-4 py-8 gap-8">
+    <div class="md:mt-16 mt-8 px-8">
+        <div class="flex text-gray-800 text-xs md:w-8/9 left-0 right-0 mx-auto justify-between border-opacity-60 border-gray border-2 md:border-[2px] border-green-800 opacity-60 rounded-lg md:px-12 px-4 py-8 gap-8">
             <div class="flex flex-col gap-4 justify-center items-center">
                 <div class="flex flex-col gap-2 text-start">
                     <div class="">

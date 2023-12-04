@@ -28,7 +28,7 @@
     <div class="flex flex-col font-poppins md:p-8 p-2">
         <div class="bg-white fixed z-20 md:bottom-12 bottom-4 shadow-md md:w-1/3 w-5/6 left-0 right-0 mx-auto rounded-full md:text-lg text-sm border-green-800 border-2 bg-opacity-90 m-4">
             <div class="flex items-center justify-between py-2 md:px-8 px-6 md:gap-4 gap-2">
-                <a href="/" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 border-white hover:border-green-800">
+                <a href="/" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 border-gray-100 hover:border-green-800">
                     <img src={heart} alt="HOME" class="w-6 h-6">
                     <span class="self-center font-semibold md:px-6 px-4 ">HOME</span>
                 </a>
@@ -36,7 +36,7 @@
                     <img src={shopwhite} alt="SHOP" class="w-6 h-6 ">
                     <span class=" md:px-8 px-4">SHOP</span>
                 </a>
-                <a href="/" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 border-white hover:border-green-800">
+                <a href="/bag" class="flex flex-col justify-center items-center self-center font-semibold rounded-xl md:border-2 pt-2 border-gray-100 hover:border-green-800">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                     </svg>
@@ -75,7 +75,7 @@
 
 
         <div class="md:mt-6 mt-4">
-            <div class="flex text-gray-800 text-xs justify-between border-gray border-2 md:border-[2px] border-green-800 opacity-50 rounded-lg md:px-12 px-4 py-8 gap-8">
+            <div class="flex text-gray-800 text-xs md:w-8/9 left-0 right-0 mx-auto justify-between border-opacity-60 border-gray border-2 md:border-[2px] border-green-800 opacity-60 rounded-lg md:px-12 px-4 py-8 gap-8">
                 <div class="flex flex-col gap-2">
                     <div>
                         Welcome to The Tote Co! 
